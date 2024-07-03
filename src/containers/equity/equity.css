@@ -1,0 +1,73 @@
+.equity {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.equity-heading {
+    margin-top: 20px;
+    width: auto;
+    text-align: center;
+    font-family: Matter;
+
+}
+
+
+.equity-heading h1 {
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: -0.2rem;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72.8px;
+    text-align: center;
+
+}
+
+.equity-heading p {
+    align-items: center;
+    text-align: center;
+    
+
+    
+    font-family: var(--font-family);
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    margin-top: 20px;
+}
+
+
+.equity-container {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    
+}
+
+.equity-footer {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+

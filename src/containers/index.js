@@ -1,0 +1,10 @@
+export { default as Network } from './network/Network';
+export { default as Footer } from './footer/Footer';
+export { default as Services } from './services/Services';
+export { default as Program } from './program/Program';
+export { default as Cofound } from './cofound/Cofound';
+export { default as Sinc } from './sinc/SINC.jsx';
+export { default as Equity } from './equity/Equity';
+export { default as Portfolio} from './portfolio/Portfolio';
+export { default as Blog } from './blog/Blog';
+export { default as Feature } from './feature/Feature';

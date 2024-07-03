@@ -1,0 +1,45 @@
+.cta {
+    border: 1px solid white;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 20px;
+    margin-left: 19rem;
+    margin-bottom: 19rem;
+    margin-right: 19rem;
+    margin-top: 9rem;
+    border-radius: 1rem;
+    background: #fff;
+
+
+
+
+}
+
+.cta-content p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+    font-family: var(--font-family);
+
+    color: #212121;
+
+}
+
+
+
+
+
+
+
+
+
+
+

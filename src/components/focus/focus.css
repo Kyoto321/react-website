@@ -1,0 +1,148 @@
+.focus {
+    display: flex;
+    flex-direction: column;
+}
+
+.focus-heading {
+    
+    width: auto;
+    text-align: center;
+    font-family: Matter;
+
+}
+
+
+.focus-heading h1 {
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: -0.2rem;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72.8px;
+    text-align: center;
+
+}
+
+.focus-heading p {
+    align-items: center;
+    text-align: center;
+
+    font-family: var(--font-family);  
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+
+
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 6rem;
+}
+
+
+.focus-rectangle1 {
+        width: 240px;
+        height: 160px;
+        background-color: #303030;
+      
+}
+
+.focus-rectangle2 {
+    width: 240px;
+    height: 160px;
+    background-color: #F47733;
+  
+}
+
+
+.focus-rectangle3 {
+    width: 240px;
+    height: 160px;
+    background-color: #ff78bf;
+  
+}
+
+
+.focus-rectangle4 {
+    width: 240px;
+    height: 160px;
+    background-color: #20888f;
+  
+}
+
+
+.focus-rectangle5 {
+    width: 240px;
+    height: 160px;
+    background-color: #ff88c6;
+  
+}
+
+
+.focus-rectangle1 h3,
+.focus-rectangle2 h3,
+.focus-rectangle3 h3,
+.focus-rectangle4 h3,
+.focus-rectangle5 h3 {
+    width: 24px;
+    height: 28px;
+
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    color: #FFFFFF;
+
+}
+
+.focus-rectangle1 p,
+.focus-rectangle2 p,
+.focus-rectangle3 p,
+.focus-rectangle4 p,
+.focus-rectangle5 p {
+    width: 180px;
+    height: 48px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+
+    padding-top: 70px;
+    padding-left: 10px;
+
+
+}
+
+.focus-rectangle5 p {
+    width: 180px;
+    height: 48px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+

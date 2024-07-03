@@ -1,0 +1,42 @@
+.program {
+    display: flex;
+    flex-direction: column;
+}
+
+.program-heading {
+    width: auto;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+
+.program-heading h1 {
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: -0.2rem;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72.8px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.program-heading p {
+    align-items: center;
+    text-align: center;
+    
+    font-family: var(--font-family);
+    font-weight:500;
+    font-size: 17px;
+    line-height: 35px;
+    color: #212121;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+

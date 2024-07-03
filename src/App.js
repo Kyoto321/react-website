@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
 
-function App() {
+import { Footer, Network, Cofound, Portfolio, Equity, Sinc, Services, Program, Blog, Feature} from './containers';
+import { CTA, Navbar, Carousel, Focus, Innovations } from './components';
+
+import { slides } from "./data/carouselData";
+import { pagedata } from './data/eirdata';
+import { featureslide } from './data/featuredata';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="gradient__bg">
+        <Navbar/>
+
+      </div>
+      <Carousel data={slides} />
+      <CTA/>
+      <Network/>
+      <Focus />
+      <Innovations />
+      <Services />
+      <Portfolio />
+      <Cofound />
+      <Sinc />
+      <Program data={pagedata}/>
+      <Equity />
+      <Blog />
+      <Feature data={featureslide} />
+
+      <Footer/>
     </div>
   );
 }

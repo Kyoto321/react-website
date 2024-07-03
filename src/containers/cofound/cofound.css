@@ -1,0 +1,117 @@
+.cofound {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cofound-heading {
+    width: auto;
+    text-align: center;
+    font-family: --font-family;
+}
+
+.cofound-heading h1 {
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: -0.2rem;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72.8px;
+    text-align: center;
+}
+
+.cofound-heading p {
+    font-family: var(--font-family);
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.cofound-text p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.cofound-text h3 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 50px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.cofound-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.cofound-container_groupB {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 6rem;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card button {
+    padding: 15px 24px 15px 24px;
+    background: #fff;
+    color: #212121;
+    Width: 280px;
+    Height: 49px;
+    font-family: var(--font-family);
+    font-weight: 580;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px 24px 24px 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
