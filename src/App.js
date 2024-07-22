@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css'
 
-import { Footer, Network, Cofound, Portfolio, Equity, Sinc, Services, Program, Blog, Feature} from './containers';
-import { CTA, Navbar, Carousel, Focus, Innovations } from './components';
+import {Network, Innovations, Services, Portfolio, Cofound, Sinc, Program, Equity, Blog, Feature, Footer} from './containers';
+import {Navbar, Intro, CTA, Focus, } from './components';
 
-import { slides } from "./data/carouselData";
 import { pagedata } from './data/eirdata';
 import { featureslide } from './data/featuredata';
 
@@ -15,7 +14,7 @@ const App = () => {
         <Navbar/>
 
       </div>
-      <Carousel data={slides} />
+      <Intro />
       <CTA/>
       <Network/>
       <Focus />

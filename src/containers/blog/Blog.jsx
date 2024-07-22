@@ -5,40 +5,35 @@ import './blog.css'
 
 function Blog() {
   return (
-    <div className="blog section__padding" id="">
+    <section class="blog">
 
+        <div class="row">
 
-      <div className="blog-container">
-       
-        <div className="blog-container_groupB">
-            <div>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
-                </iframe> 
-                <h1></h1>
-                <p></p>
+            <div class="blog-col">
+              <iframe height="315"
+                  src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
+              </iframe>
+
             </div>
 
-            <div>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
-                </iframe> 
-                <h1></h1>
-                <p></p>
+
+            <div class="blog-col">
+              <iframe height="315"
+                  src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
+              </iframe>
+
             </div>
 
-            <div>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
-                </iframe> 
-                <h1></h1>
-                <p></p>
+            <div class="blog-col">
+              <iframe height="315"
+                  src="https://www.youtube.com/watch?v=IcvXvm8stvQ">
+              </iframe>
+
             </div>
 
-        </div> 
-      </div>
+        </div>
 
-    </div>
+    </section>
   )
 }
 

@@ -1,43 +1,45 @@
 import React from 'react'
 import './equity.css'
-import { Jobs } from '../../components'
-import { card1, card2, card3, card4 } from './imports'
+
+import card1 from '../../assets/card1.jpg';
+import card2 from '../../assets/card2.jpg';
+import card3 from '../../assets/card3.jpg';
+import card4 from '../../assets/card4.jpg';
+
+
 
 
 function Equity() {
   return (
-    <div clasIName="equity section__padding" id="equity">
-      <div className="equity-heading">
+    <section class="equity">
         <h1>Our Jobs equity</h1>
-        
-        <p>See companies and startups offering equity or a mix of cash and equity for very important position in their company</p>
-      </div>
-      <div className="equity-container">
-       
-    
-          <Jobs
-            imgUrl={card1}
-        />
+        <p>See companies and startups offering equity or a mix of cash and equity for very important position in their company</p>
 
-          <Jobs  
-          imgUrl={card2}
-          />
+        <div class="row">
+            <div class="equity-col">
+                <img src={card1} alt="card1" />
+                
+            </div>
 
-          <Jobs  
-            imgUrl={card3}
-          
-          />
 
-         <Jobs  
-            imgUrl={card4}
-          
-          />
-         
-        
-      </div>
+            <div class="equity-col">
+                <img src={card2} alt="card2" />
+                
+            </div>
+
+            <div class="equity-col">
+                <img src={card3} alt="card3" />
+                
+            </div>
+
+            <div class="equity-col">
+                <img src={card4} alt="card4" />
+                
+            </div>
+        </div>
 
       <p className="equity-footer">See more Equity jobs</p>
-    </div>
+    </section>
   )
 }
 

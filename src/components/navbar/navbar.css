@@ -1,75 +1,59 @@
 .navbar {
     display: flex;
+    padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
-    margin-top: -30px;
-    padding: 2rem 6rem;
 }
 
 .navbar-links {
-    flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+
 }
 
-.navbar-links_logo {
-    margin-right: 2rem;
-}
-
-.navbar-links_logo img {
-    width: 114.94px;
+.navbar-links img {
+    width: 100px;
     height: 64px;
-    gap: 0px;
-    opacity: 0px;
-
 }
+
 
 .navbar-links_container {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
 }
 
-.navbar-sign {
+.more {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
-.navbar-links_container p,
-.navbar-sign p,
-.navbar-menu_container p {
+.navbar-button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 5px;
+
+}
+
+
+.navbar-links_container p {
     color: #212121;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
+    transition: 0.5s;
     margin: 0 1rem;
     cursor: pointer;
 }
 
-.navbar-sign button,
-.navbar-menu_container button {
-    padding: 15px 24px 15px 24px;
-    background: #303030;
-    color: #fff;
-    Width: 162px;
-    Height: 49px;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 2px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 24px 24px 24px 24px;
-   margin-bottom: 30px;
+.navbar-links_container p:hover {
+    color: #20888F;
 }
 
-.navbar-sign-in button,
-.navbar-menu__container-links-sign-in {
+
+.navbar-sign-in button {
     padding: 15px 24px 15px 24px;
     opacity: 0px;
     background: #20888F;
@@ -84,79 +68,107 @@
     outline: none;
     cursor: pointer;
     border-radius: 24px 24px 24px 24px; 
+    transition: 0.5s;   
+}
+
+
+.navbar-sign-in button:hover {
+    color: #000;
+}
+
+
+.navbar-sign button {
+    padding: 15px 24px 15px 24px;
+    background: #303030;
+    color: #fff;
+    Width: 162px;
+    Height: 49px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px 24px 24px 24px;
+    transition: 0.5s;
+}
+
+.navbar-sign button:hover{
+    color: lightseagreen;
 }
 
 .navbar-sign-in p {
     color: #fff;
 }
 
-.navbar-menu {
-    margin-left: 1rem;
-    
-    display: none;
-    position: relative;
-}
 
-.navbar-menu svg {
-    cursor: pointer;
-}
 
-.navbar-menu_container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-    color: #000;
-    text-align: end;
-    background: var(--color-bg);
-    padding: 2rem;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    margin-top: 1rem;
-    min-width: 210px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
-}
+@media screen and (max-width:700px) {
 
-.navbar-menu_container p {
-    margin: 1rem 0;
-}
-
-.navbar-menu_container-links-sign {
-    display: none;
-}
-
-@media screen and (max-width: 1050px) {
-    .navbar-links_container {
-        display: none;
-    }
-
-    .navbar-menu {
+    .navbar {
         display: flex;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .navbar {
-        padding: 3rem 5rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .navbar {
-        padding: 5rem;
+        padding: 1% 2%;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .navbar-sign {
+    .navbar-links img {
+        width: 40px;
+        height: 24px;
+    }
+
+
+    .navbar-button {
+        display: flex;       
+    }
+
+    .navbar-links_container {
+        display: flex;
+        
+    }
+
+
+    .more {
         display: none;
     }
-
-    .navbar-menu_container {
-        top: 20px;
+    
+    .navbar-sign-in button {
+        Width: 62px;
+        Height: 29px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 7px;
+        padding: 10px;
     }
 
-    .gpt3__navbar-menu_container-links-sign {
-        display: block;
+    .navbar-sign button {
+        color: #fff;
+        Width: 62px;
+        Height: 29px;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 9px;
+        transition: 0.5s;   
+    }
+
+    .navbar-links_container p {
+        font-style: 10px;
+        margin-bottom: 10px;
+        color: #212121;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 20px;
+        text-transform: capitalize;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .navbar-links_container p:hover {
+        color: #20888F;
     }
 }
+
+
+

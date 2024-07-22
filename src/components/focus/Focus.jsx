@@ -4,12 +4,12 @@ import './focus.css'
 
 function Focus() {
   return (
-    <div className="focus section__padding" id="focus">
-      <div className="focus-heading">
+    <div className="focus">
+     
         <h1>Our Area of Focus</h1>
         
-        <p>In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab</p>
-      </div>
+        <p>In our quest to help make success available to everyone, we have <br /> initial strategic direction to focus on these five (5) key areas at the <br /> lab</p>
+   
     
       <div className='container-card'>
 

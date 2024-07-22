@@ -8,3 +8,4 @@ export { default as Equity } from './equity/Equity';
 export { default as Portfolio} from './portfolio/Portfolio';
 export { default as Blog } from './blog/Blog';
 export { default as Feature } from './feature/Feature';
+export { default as Innovations } from './innovations/Innovations';

@@ -1,17 +1,18 @@
 import React from "react"
 import "./footer.css"
-import { logo } from './imports'
+
+import logo from '../../assets/logo.jpg'
 
 const Footer = () => {
   return (
     <>
       <section className='newletter'>
         <div className='container'>
-          <div className='left row'>
+          <div className='left-row'>
             <h1>Newsletter</h1>
-            <span>Get the latest about SINC Partners, our startup incubator progra, Portfolio companies offerings - straight into your inbox.</span>
+            <span>Get the latest about SINC Partners, our startup incubator program, Portfolio companies offerings - straight into your inbox.</span>
           </div>
-          <form className="container-form" action=''>
+          <form className="container-form">
             <div className='form'>
               <input type='text' placeholder='Enter email address' />
               <button className='primary-btn'>Subscribe</button>
@@ -82,7 +83,7 @@ const Footer = () => {
               <li>EIR Program</li>
               <li>Offers</li>
               <li>Innovation Newsletter</li>
-              <li>UNiversity InResidency</li>
+              <li>University InResidency</li>
               <li>1M Nigeria Products</li>
               <li>FOunders Festival</li>
             </ul>
@@ -102,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                wids@gmail.com
+                frontlett@gmail.com
               </li>
             </ul>
           </div>

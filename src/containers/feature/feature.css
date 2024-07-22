@@ -7,22 +7,19 @@
     width: auto;
     text-align: center;
     font-family: var(--font-family);
+   
 }
 
 
 .feature-heading h1 {
-    align-items: center;
-    text-align: center;
     line-height: 75px;
     letter-spacing: -0.2rem;
-    font-family: var(--font-family);
-    font-size: 56px;
+    text-align: center;
+    font-size: 45px;
     font-weight: 500;
     line-height: 72.8px;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 7rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .feature-heading p {
@@ -34,14 +31,12 @@
     line-height: 35px;
     color: #212121;
     margin-top: 40px;
-    margin-bottom: 70px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-bottom: 50px;
+
 
 }
 
-.feature-sign button,
-.feature-menu_container button {
+.feature-sign button {
     padding: 15px 24px 15px 24px;
     background: #303030;
     color: #fff;
@@ -55,11 +50,10 @@
     outline: none;
     cursor: pointer;
     border-radius: 24px 24px 24px 24px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.feature-sign-in button,
-.feature-menu__container-links-sign-in {
+.feature-sign-in button {
     padding: 15px 24px 15px 24px;
     opacity: 0px;
     background: #fff;
@@ -88,3 +82,22 @@
 }
 
 
+
+@media(max-width: 700px) {
+    .feature-heading h1 {
+        letter-spacing: -0.2rem;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .feature-heading p {
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: bold;
+        font-size: 15px;
+        color: #212121;
+    }
+}

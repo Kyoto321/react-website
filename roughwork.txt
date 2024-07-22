@@ -1,0 +1,225 @@
+.navbar {
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links img {
+    width: 100px;
+    height: 64px;
+}
+
+
+.navbar-links_container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar-button {
+    display: flex;
+    text-align: left;  
+    gap: 10px;
+}
+
+
+.navbar-links_container p {
+    color: #212121;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    transition: 0.5s;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbar-links_container p:hover {
+    color: #20888F;
+}
+
+
+.navbar-sign-in button {
+    padding: 15px 24px 15px 24px;
+    opacity: 0px;
+    background: #20888F;
+    color: #fff;
+    Width: 162px;
+    Height: 49px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px 24px 24px 24px; 
+    transition: 0.5s;   
+}
+
+
+.navbar-sign-in button:hover {
+    color: #000;
+}
+
+
+.navbar-sign button {
+    padding: 15px 24px 15px 24px;
+    background: #303030;
+    color: #fff;
+    Width: 162px;
+    Height: 49px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px 24px 24px 24px;
+    transition: 0.5s;
+}
+
+.navbar-sign button:hover{
+    color: lightseagreen;
+}
+
+.navbar-sign-in p {
+    color: #fff;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+
+
+    .navbar-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        margin-top: 30px;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 60vh;
+        background: #fff;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+      
+    }
+
+    .navbar-links_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .navbar-links_container p {
+        margin-bottom: 20px;
+    }
+
+    .navbar-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-sign-in {
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .navbar-sign {
+        padding-left: 50px;
+    }
+
+    .navbar-mobile {
+        display: block;
+    }
+    
+
+    .navbar-mobile i {
+        font-size: 5rem;
+        cursor: pointer;
+        padding-right: 50rem;
+    }
+    
+}
+
+
+
+
+
+import { Component} from 'react';
+import './navbar.css';
+
+import logo from '../../assets/logoo.jpg'
+
+
+
+class Navbar extends Component {
+  state = {clicked: false}
+
+  handleCLick = () => {
+    this.setState({clicked:
+    !this.state.clicked
+    })
+  }
+
+  
+
+  render() {
+    return (
+      <div className="navbar">
+        
+          <div id="navbar-links" className={this.state.clicked ? "#navbar active" : "#navbar" } >
+            <img src={logo} alt="logo"/>
+
+            <div className="navbar-links_container">
+                <p><a href="#">About</a></p>
+                <p><a href="#">SIP</a></p>
+                <p><a href="#">Studio</a></p>
+                <p><a href="#">SEEQ</a></p>
+                <p><a href="#">Platforms</a></p>
+                <p><a href="#">Initiatives</a></p>
+                <p><a href="#">More</a></p>
+              </div> 
+
+            <div className='navbar-button'>
+              <div className="navbar-sign-in">
+                <button type="button">SINC With Us</button>
+              
+              </div>
+              <div className="navbar-sign">
+              
+                <button type="button">Apply to SIP 1.0 </button>
+              </div>
+            </div>  
+
+            <div className="navbar-mobile" onClick={this.handleCLick}>
+              <i id="bar" className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
+            </div>
+            
+          </div>       
+
+      
+       
+      </div>
+    )
+  }
+}
+
+export default Navbar

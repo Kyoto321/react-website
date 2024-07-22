@@ -1,8 +1,7 @@
 .newletter {
     background-color: #000;
     padding: 70px 70px;
-    color: #fff;
-  
+    color: hsl(0, 0%, 100%);
 }
 
 
@@ -27,14 +26,14 @@
 }
 
 
-.newletter span {
+.left-row span {
     padding-right: 75rem;
     font-size: 12px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.newletter input {
+.form input {
     width: 180%;
     padding: 20px;
     border: none;
@@ -50,7 +49,7 @@
     font-size: 15px;
 }
 
-.newletter button {
+.form button {
     width: 100%;
     height: 40px;
     border: 0.5px solid gray ;
@@ -64,34 +63,33 @@
 
 
 .newletter i {
-padding: 12px;
-color: #1eb2a6;
-background-color: #fff;
+    padding: 12px;
+    color: #1eb2a6;
+    background-color: #fff;
 }
 
 
 footer {
-background-color: #000;
+    background-color: #000;
 }
 
 footer .vertical {
-border-left: 1px solid white;
-height: 30rem;
-padding-left: 150px;
-align-items: left;
+    border-left: 1px solid white;
+    height: 30rem;
+    padding-left: 150px;
+    align-items: left;
 }
 
 footer .container {
-display: grid;
-grid-template-columns: 3fr 2fr 2fr 2fr 2fr 3fr;
-grid-gap: 30px;
-padding: 70px 70px;
-margin-top: -5rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 2fr 3fr;
+    grid-gap: 30px;
+    padding: 70px 70px;
+    margin-top: -5rem;
 }
 
 footer .box-link {
-padding-right: 15rem;
-
+    padding-right: 15rem;
 }
 
 
@@ -100,6 +98,23 @@ padding-right: 15rem;
     footer .container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .left-row span {
+        padding-right: 10px;
+  
+    }
+
+    .form input {
+        width: 150%;
+    }
+
+    footer .vertical {
+        border-left: 1px solid white;
+        height: 30rem;
+        padding-left: 20px;
+        align-items: left;
+    }
+        
 }
 
 footer .logo span {
@@ -137,26 +152,6 @@ color: #fff;
 margin-right: 5px;
 }
 
-footer .items {
-margin-bottom: 30px;
-}
-
-footer .items img {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    margin-right: 10px;
-    object-fit: cover;
-}
-
-footer .items span,
-footer .items i {
-    font-size: 12px;
-    color: #fff;
-    margin-right: 5px;
-    text-transform: capitalize;
-}
-
 footer h4 {
     font-weight: 400;
     margin-top: 5px;
@@ -191,3 +186,5 @@ footer .last i {
 .legal i {
     color: #1eb2a6;
 }
+
+

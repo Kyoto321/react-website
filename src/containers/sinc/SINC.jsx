@@ -2,11 +2,10 @@ import React from 'react'
 import './sinc.css'
 
 
-
 function Sinc() {
   return (
-    <div className="sinc section__padding" id="">
-      <div className="sinc-heading">
+    <div className="sinc">
+     
         <h1>SINC Investors Network</h1>
 
         <p>Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. 
@@ -14,7 +13,7 @@ function Sinc() {
             you are guaranteed at least 2x-5x, usually been the first to invest. 
             Disclaimer: These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1, usually the first to invest
         </p>
-      </div>
+    
 
         <div>
             <div className='sinc-text'>
@@ -94,7 +93,7 @@ function Sinc() {
             <div className="sinc-rectangle-black">
                 
                 <p>Work with Service Incubators (SINC) to expedite your time to market</p>
-                <div className="navbar-sign">
+                <div className="sinc-sign-btn">
                     <button type="button">Apply to SIP 1.0 </button>
                 </div>
             </div>

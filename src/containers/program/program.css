@@ -1,42 +1,29 @@
 .program {
-    display: flex;
-    flex-direction: column;
-}
-
-.program-heading {
-    width: auto;
-    text-align: center;
-    font-family: var(--font-family);
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
 }
 
 
-.program-heading h1 {
-    align-items: center;
-    text-align: center;
+.program h1 {
     line-height: 75px;
     letter-spacing: -0.2rem;
-    font-size: 56px;
+    text-align: center;
+    font-size: 45px;
     font-weight: 500;
     line-height: 72.8px;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin-bottom: 40px;
 }
 
-
-.program-heading p {
-    align-items: center;
-    text-align: center;
-    
+.program p {
     font-family: var(--font-family);
-    font-weight:500;
-    font-size: 17px;
-    line-height: 35px;
+    text-align: center;
     color: #212121;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    padding-left: 100px;
-    padding-right: 100px;
-
+    font-style: 14px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 70px;
 }
+
 
