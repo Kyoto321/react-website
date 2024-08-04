@@ -49,5 +49,13 @@
     line-height: 30px;
 }
 
-
-
+@media screen and (max-width:700px) {
+    .equity h1 {
+        line-height: 55px;
+        letter-spacing: -0.2rem;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}

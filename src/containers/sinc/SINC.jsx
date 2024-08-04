@@ -25,34 +25,34 @@ function Sinc() {
 
                 <div className="sinc-rectangle1">
                 <h3>Deal1</h3>
-                <p>✓ <small> Idea Stage: $5k for 5% Equity</small></p>
-                <p>✓ <small> Expected Revenue at This Stage: $0/mth</small></p>
-                <p>✓ <small> Duration of Raise: 1mth</small></p>
-                <p>✓ <small> Who Can Invest: People with Domain Expertise and Advisors</small></p>
+                <p>✓ <small> Idea Stage: $5k for 5% Equity.</small></p>
+                <p>✓ <small> Expected Revenue at This Stage: $0/mth.</small></p>
+                <p>✓ <small> Duration of Raise: 1mth.</small></p>
+                <p>✓ <small> Who Can Invest: People with Domain Expertise and Advisors.</small></p>
                 </div>
 
                 <div className="sinc-rectangle2">
                 <h3>Deal2</h3>
-                <p>✓ <small> Build Stage: $25k worth of service for 10% Equity</small></p>
-                <p>✓ <small> Expected Revenue at This Stage: $100+/mth</small></p>
-                <p>✓ <small> Duration of Raise: 1-3mths </small></p>
-                <p>✓ <small> Who Can Invest: Developers, Engineers, Growth Marketers</small></p>
+                <p>✓ <small> Build Stage: $25k worth of service for 10% Equity.</small></p>
+                <p>✓ <small> Expected Revenue at This Stage: $100+/mth.</small></p>
+                <p>✓ <small> Duration of Raise: 1-3mths.</small></p>
+                <p>✓ <small> Who Can Invest: Developers, Engineers, Growth Marketers.</small></p>
                 </div>
 
                 <div className="sinc-rectangle3">
                 <h3>Deal3</h3>
-                <p>✓ <small> Validation Stage: $50k for 5% Equity</small></p>
-                <p>✓ <small> Expected Revenue at This Stage: $1k+/mth</small></p>
-                <p>✓ <small> Duration of Raise: 3-6mths</small></p>
-                <p>✓ <small> Who Can Invest: Everyone </small></p>
+                <p>✓ <small> Validation Stage: $50k for 5% Equity.</small></p>
+                <p>✓ <small> Expected Revenue at This Stage: $1k+/mth.</small></p>
+                <p>✓ <small> Duration of Raise: 3-6mths.</small></p>
+                <p>✓ <small> Who Can Invest: Everyone.</small></p>
                 </div>
 
                 <div className="sinc-rectangle4">
                 <h3>Deal4</h3>
-                <p>✓ <small> Traction Stage: $125k worth of service for 5% Equity</small></p>
-                <p>✓ <small> Expected Revenue at This Stage: $5k+/mth</small></p>
-                <p>✓ <small> Duration of Raise: 6-12mths</small></p>
-                <p>✓ <small> Who Can Invest: Media, Influencers, Celebrity, Platform Owners</small></p>
+                <p>✓ <small> Traction Stage: $125k worth of service for 5% Equity.</small></p>
+                <p>✓ <small> Expected Revenue at This Stage: $5k+/mth.</small></p>
+                <p>✓ <small> Duration of Raise: 6-12mths.</small></p>
+                <p>✓ <small> Who Can Invest: Media, Influencers, Celebrity, Platform Owners.</small></p>
                 </div>
 
             </div>

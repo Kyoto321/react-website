@@ -15,7 +15,7 @@ function cofound() {
 
       <div class="row">
             <div class="cofound-col">
-            <img src={num1} alt="num1" />;
+            <img src={num1} alt="num1" />
                 <h3>We Ideate</h3>
                 <p>
                   We internally generate concepts and ideas that help solve problems 
@@ -27,7 +27,7 @@ function cofound() {
 
 
             <div class="cofound-col">
-                <img src={num2} alt="num2" />;
+                <img src={num2} alt="num2" />
                 <h3>We Validate</h3>
                 <p>
                   You join our 3 months inResidence program as a business expert 

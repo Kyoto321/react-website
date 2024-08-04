@@ -162,6 +162,15 @@
 
 
 @media(max-width: 700px) {
+    .sinc h1 {
+        line-height: 55px;
+        letter-spacing: -0.2rem;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
     .container-card {
         display: flex;
         flex-direction: column;
@@ -171,4 +180,10 @@
         box-sizing: border-box;
         gap: 5px;
     }
+
+    .sinc-text {
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+    }
+
 }

@@ -117,6 +117,15 @@
 
 
 @media(max-width: 700px) {
+    .focus h1 {
+        line-height: 55px;
+        letter-spacing: -0.2rem;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
     .container-card {
         display: flex;
         flex-direction: column;

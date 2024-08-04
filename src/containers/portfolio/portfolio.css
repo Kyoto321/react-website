@@ -29,6 +29,18 @@
 
 
 @media(max-width: 700px) {
+
+  .portfolio h1 {
+      line-height: 55px;
+      letter-spacing: -0.2rem;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 600;
+      margin-bottom: 20px;
+  }
+
+
+
   .portfolio-container img {
     width: 100%;
   }  

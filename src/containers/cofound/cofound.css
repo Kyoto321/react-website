@@ -13,7 +13,6 @@
     text-align: center;
     font-size: 45px;
     font-weight: 500;
-    line-height: 72.8px;
     margin-bottom: 40px;
 }
 
@@ -51,3 +50,19 @@
 }
 
 
+@media screen and (max-width:700px) {
+    .cofound h1 {
+        line-height: 55px;
+        letter-spacing: -0.2rem;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .cofound-col h3 {
+    
+        text-align: center;
+     
+    }
+}
